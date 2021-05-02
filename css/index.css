@@ -1,0 +1,56 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+p, div {
+    font-family: 'Vollkorn', serif;
+    margin: 0;
+}
+body {
+    background: url(/assets/cream_dust.png) repeat 0 0;
+}
+.wrapper {
+    max-width: 40em;
+    text-align: center;
+    padding: 40px 0;
+}
+.tagline {
+    margin-bottom: 40px;
+}
+.greeting {
+    font-size: 5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+.about {
+    font-size: 2.5em;
+    color: #555;
+}
+.text-links {
+    margin-bottom: 20px;
+}
+.btn-alex,
+.btn-alex:hover,
+.btn-alex:focus,
+.btn-alex:active,
+.btn-alex.active {
+    color: #428bca;
+}
+.social-links {
+}
+#my-resume-wrapper {
+    margin: 10px;
+    max-height: 600px;
+}
+#my-resume-wrapper > iframe {
+    width: 100%;
+    min-height: 500px;
+}
+#resume-download-button {
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*margin-top: 10px;*/
+    margin: 10px auto;
+    max-width: 300px;
+}
